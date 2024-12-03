@@ -24,13 +24,12 @@ class Album extends Model
         'updated_at',
     ];
 
-    // Определение отношения с треками
     public function tracks(): HasMany
     {
         return $this->hasMany(Track::class);
     }
 
-    // Мутатор для поля 'год_выпуска'
+    // мутатор года
     public function setYearOfReleaseAttribute($value)
     {
         $this->attributes['year_of_release'] = Carbon::createFromFormat('Y', $value);
