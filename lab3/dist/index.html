@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музыкальные альбомы</title>
+<script defer src="main.js"></script><link href="main.css" rel="stylesheet"></head>
+
+<body>
+
+
+    <div class="base">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid justify-content-start">
+                <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frusinfo.info%2Fwp-content%2Fuploads%2F0%2Fd%2F5%2F0d566f372942bc64e69fb2ae9aea22f6.png&f=1&nofb=1&ipt=1078818f6e04d4fedf6cd6a3b8547fe57fef8b8cf580598e27b9b4f531d0aa1f&ipo=images"
+                    class="img" alt="nota">
+                <a class="navbar-brand" href="#">Музыкальные альбомы</a>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">
+                    Загрузить
+                </button>
+            </div>
+        </nav>
+        <h1>Альбомы</h1>
+        <div class="container text-center overflow-hidden">
+            <div
+                class="row gy-3 gx-2 row-cols-1 row-cols-xs-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5 row-cols-xxl-6">
+                <div class="col">
+                    <div class="card">
+                        <p>2022</p>
+                        <img src="https://avatars.yandex.net/get-music-content/5678677/757dae4d.a.20811678-1/400x400"
+                            class="img-fluid" alt="Ado - Kyogen">
+                        <div class="card-body">
+                            <h3>Kyogen</h3>
+                            <span>Ado</span>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#adoModal">
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <p>2008</p>
+                        <img src="https://avatars.yandex.net/get-music-content/41288/c4190b15.a.109701-1/400x400"
+                            class="img-fluid" alt="Nomy - Song Or Suicide">
+                        <div class="card-body">
+                            <h3>Song Or Suicide</h3>
+                            <span>Nomy</span>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#nomyModal">
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <p>2012</p>
+                        <img src="https://avatars.yandex.net/get-music-content/33216/14abc6ad.a.561528-1/400x400"
+                            class="img-fluid" alt="Billy Talent - Dead Silence">
+                        <div class="card-body">
+                            <h3>Dead Silence</h3>
+                            <span>Billy Talent</span>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#billyModal">
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <p>2022</p>
+                        <img src="https://avatars.yandex.net/get-music-content/6296749/1661bbb6.a.22538802-1/400x400"
+                            class="img-fluid" alt="Geoxor - Kill Aura">
+                        <div class="card-body">
+                            <h3>Kill Aura</h3>
+                            <span>Geoxor</span>
+
+                        </div>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#geoModal">
+                            Подробнее
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card">
+                        <p>2019</p>
+                        <img src="https://avatars.yandex.net/get-music-content/9867886/aaff7034.a.9337689-2/400x400"
+                            class="img-fluid" alt="Lida - Жабы атаковали планету Земля">
+                        <div class="card-body">
+                            <h3>Жабы атаковали планету Земля</h3>
+                            <span>Lida</span>
+
+                        </div>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#lidaModal">
+                            Подробнее
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+        </div>
+
+        <div class="modal fade" id="adoModal" tabindex="-1" role="dialog" aria-labelledby="adoModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="adoModalLabel">Ado - Kyogen</h5>
+                        <button type="button" class="btn btn-info" data-bs-toggle="popover"
+                            data-bs-content='Ado (アド) - японская певица. Она дебютировала 23 октября 2020 года с цифровым синглом под названием "Usseewa" в возрасте 17 лет. '>?</button>
+
+
+                    </div>
+                    <div class="modal-body">
+                        <p>Исполнитель - Ado</p>
+                        <p>Название альбома - Kyogen</p>
+                        <p>Год выпуска - 2022</p>
+                        <p>Список треков:</p>
+                        <table class="table table-responsive">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Название</th>
+                                    <th scope="col">Длина</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>"Readymade" (レディメイド)</td>
+                                    <td>4:03</td>
+                                </tr>
+                                <tr>
+                                    <td>"Odo" (踊)</td>
+                                    <td>3:30</td>
+                                </tr>
+                                <tr>
+                                    <td>"Domestic De Violence" (ドメスティックでバイオレンス)</td>
+                                    <td>2:38</td>
+                                </tr>
+                                <tr>
+                                    <td>"Freedom"</td>
+                                    <td>3:06</td>
+                                </tr>
+                                <tr>
+                                    <td>"Fireworks" (花火 "Hanabi")</td>
+                                    <td>3:32</td>
+                                </tr>
+                                <tr>
+                                    <td>"Aitakute" (会いたくて)</td>
+                                    <td>4:55</td>
+                                </tr>
+                                <tr>
+                                    <td>"Lucky Bruto" (ラッキー・ブルート)</td>
+                                    <td>3:30</td>
+                                </tr>
+                                <tr>
+                                    <td>"Gira Gira" (ギラギラ)</td>
+                                    <td>4:36</td>
+                                </tr>
+                                <tr>
+                                    <td>"Ashura-chan" (阿修羅ちゃん)</td>
+                                    <td>3:15</td>
+                                </tr>
+                                <tr>
+                                    <td>"Kokoro to iu Na no Fukakai" (心という名の不可解)</td>
+                                    <td>4:30</td>
+                                </tr>
+                                <tr>
+                                    <td>"Usseewa" (うっせぇわ)</td>
+                                    <td>3:27</td>
+                                </tr>
+                                <tr>
+                                    <td>"Motherland" (マザーランド)</td>
+                                    <td>4:20</td>
+                                </tr>
+                                <tr>
+                                    <td>"Kagakushu" (過学習)</td>
+                                    <td>3:36</td>
+                                </tr>
+                                <tr>
+                                    <td>"Yoru no Pierrot" (夜のピエロ)</td>
+                                    <td>3:21</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="nomyModal" tabindex="-1" role="dialog" aria-labelledby="nomyModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="nomyModalLabel">Nomy - Song Or Suicide</h5>
+                        <button type="button" class="btn btn-info" data-bs-toggle="popover"
+                            data-bs-content="Nomy - шведский певец и автор песен, известный своим уникальным стилем и текстами.">?</button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Исполнитель - Nomy</p>
+                        <p>Название альбома - Song Or Suicide</p>
+                        <p>Тип выпуска - альбом</p>
+                        <p>Год выпуска - 2008</p>
+                        <table class="table table-responsive">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Название</th>
+                                    <th scope="col">Длина</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>"Cocaine"</td>
+                                    <td>4:11</td>
+                                </tr>
+                                <tr>
+                                    <td>"On My Grave"</td>
+                                    <td>4:04</td>
+                                </tr>
+                                <tr>
+                                    <td>"You Better Die Young"</td>
+                                    <td>3:45</td>
+                                </tr>
+                                <tr>
+                                    <td>"Crucified By Love"</td>
+                                    <td>3:43</td>
+                                </tr>
+                                <tr>
+                                    <td>"Time"</td>
+                                    <td>4:20</td>
+                                </tr>
+                                <tr>
+                                    <td>"Let The Sun Die"</td>
+                                    <td>3:48</td>
+                                </tr>
+                                <tr>
+                                    <td>"My Religion"</td>
+                                    <td>3:19</td>
+                                </tr>
+                                <tr>
+                                    <td>"Sweet Jose Kills Me"</td>
+                                    <td>4:55</td>
+                                </tr>
+                                <tr>
+                                    <td>"Scarecrow"</td>
+                                    <td>4:22</td>
+                                </tr>
+                                <tr>
+                                    <td>"Hold Your Head Up High"</td>
+                                    <td>3:27</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="billyModal" tabindex="-1" role="dialog" aria-labelledby="billyModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="billyModalLabel">Billy Talent - Dead Silence</h5>
+                        <button type="button" class="btn btn-info" data-bs-toggle="popover"
+                            data-bs-content='Billy Talent — канадская рок-группа. Была сформирована под названием Pezz в Онтарио в 1993 году. Состав группы: Бенджамин Ковалевич, Иэн Ди’Сэй, Джонатан Гэллант и Аарон Соловонюк. '>?</button>
+
+                    </div>
+                    <div class="modal-body">
+                        <p>Исполнитель - Lida</p>
+                        <p>Название альбома - Dead Silence</p>
+                        <p>Год выпуска - 2012</p>
+                        <p>Тип выпуска - альбом</p>
+                        <table class="table table-responsive">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Название</th>
+                                    <th scope="col">Длина</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>"Lonely Road to Absolution"</td>
+                                    <td>1:15</td>
+                                </tr>
+                                <tr>
+                                    <td>"Viking Death March"</td>
+                                    <td>4:02</td>
+                                </tr>
+                                <tr>
+                                    <td>"Surprise Surprise"</td>
+                                    <td>3:08</td>
+                                </tr>
+                                <tr>
+                                    <td>"Runnin' Across the Tracks"</td>
+                                    <td>4:19</td>
+                                </tr>
+                                <tr>
+                                    <td>"Love Was Still Around"</td>
+                                    <td>3:46</td>
+                                </tr>
+                                <tr>
+                                    <td>"Stand up and Run"</td>
+                                    <td>3:20</td>
+                                </tr>
+                                <tr>
+                                    <td>"Crooked Minds"</td>
+                                    <td>5:04</td>
+                                </tr>
+                                <tr>
+                                    <td>"Man Alive!"</td>
+                                    <td>3:36</td>
+                                </tr>
+                                <tr>
+                                    <td>"Hanging by a Thread"</td>
+                                    <td>3:53</td>
+                                </tr>
+                                <tr>
+                                    <td>"Cure for the Enemy"</td>
+                                    <td>4:26</td>
+                                </tr>
+                                <tr>
+                                    <td>"Don't Count on the Wicked"</td>
+                                    <td>4:08</td>
+                                </tr>
+                                <tr>
+                                    <td>"Show Me the Way"</td>
+                                    <td>3:06</td>
+                                </tr>
+                                <tr>
+                                    <td>"Swallowed up by the Ocean"</td>
+                                    <td>5:02</td>
+                                </tr>
+                                <tr>
+                                    <td>"Dead Silence"</td>
+                                    <td>4:48</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="geoModal" tabindex="-1" role="dialog" aria-labelledby="geoModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="geoModalLabel">Geoxor - Kill Aura</h5>
+                        <button type="button" class="btn btn-info" data-bs-toggle="popover"
+                            data-bs-content='Джордж Цоцос (George Tsotsos) - (дата рождения 27 марта 2001 года). Начал своё творчество под влиянием таких музыкантов как: Panda Eyes, Virtual Riot, Porter Robinson, Skrillex.'>?</button>
+
+
+
+                    </div>
+                    <div class="modal-body">
+                        <p>Исполнитель - Geoxor</p>
+                        <p>Название альбома - Kill Aura</p>
+                        <p>Год выпуска - 2022</p>
+                        <p>Тип выпуска - сингл</p>
+                        <table class="table table-responsive">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Название</th>
+                                    <th scope="col">Длина</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>"Kill Aura"</td>
+                                    <td>3:25</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="lidaModal" tabindex="-1" role="dialog" aria-labelledby="lidaModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="lidaModalLabel">Lida - Жабы атаковали планету Земля</h5>
+                        <button type="button" class="btn btn-info" data-bs-toggle="popover"
+                            data-bs-content='Никола́й Вячесла́вович Ромадо́в (род. 10 мая 1995, Москва), более известный под псевдонимом Lida (рус. Лида́) — российский поп-рейв исполнитель, музыкант и автор-исполнитель, шоумен. Продюсер группы «Фрио».'>?</button>
+
+
+
+                    </div>
+                    <div class="modal-body">
+                        <p>Исполнитель - Lida</p>
+                        <p>Название альбома - Жабы атаковали планету Земля</p>
+                        <p>Год выпуска - 2019</p>
+                        <p>Тип выпуска - альбом</p>
+                        <table class="table table-responsive">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Title</th>
+                                    <th scope="col">Length</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>"Эмо хардкор" — Lida, ФРИК ПАТИ</td>
+                                    <td>2:19</td>
+                                </tr>
+                                <tr>
+                                    <td>"Грустный реп" — Lida, tenderlybae</td>
+                                    <td>2:37</td>
+                                </tr>
+                                <tr>
+                                    <td>"Гэнг бэнг"</td>
+                                    <td>2:52</td>
+                                </tr>
+                                <tr>
+                                    <td>"Аспирин"</td>
+                                    <td>2:47</td>
+                                </tr>
+                                <tr>
+                                    <td>"Повар Николай"</td>
+                                    <td>1:21</td>
+                                </tr>
+                                <tr>
+                                    <td>"Жужжание пчелы"</td>
+                                    <td>1:07</td>
+                                </tr>
+                                <tr>
+                                    <td>"Лекс"</td>
+                                    <td>1:46</td>
+                                </tr>
+                                <tr>
+                                    <td>"Выхода нет"</td>
+                                    <td>0:40</td>
+                                </tr>
+                                <tr>
+                                    <td>"Послевкусие виски"</td>
+                                    <td>3:35</td>
+                                </tr>
+                                <tr>
+                                    <td>"Жужжание мухи"</td>
+                                    <td>3:04</td>
+                                </tr>
+                                <tr>
+                                    <td>"Ralph Lauren"</td>
+                                    <td>4:38</td>
+                                </tr>
+                                <tr>
+                                    <td>"Поджигай"</td>
+                                    <td>3:43</td>
+                                </tr>
+                                <tr>
+                                    <td>"Иголка"</td>
+                                    <td>5:04</td>
+                                </tr>
+                                <tr>
+                                    <td>"Звездопад"</td>
+                                    <td>4:06</td>
+                                </tr>
+                                <tr>
+                                    <td>"Не грусти покури отпустит"</td>
+                                    <td>3:44</td>
+                                </tr>
+                                <tr>
+                                    <td>"Фенилэтиламин"</td>
+                                    <td>3:36</td>
+                                </tr>
+                                <tr>
+                                    <td>"Не пошлая Молли"</td>
+                                    <td>2:35</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+
+    <div class="position-fixed bottom-0 right-0 p-3" style="z-index: 5; right: 0; bottom: 0;">
+        <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true"
+            data-bs-delay="2000">
+            <div class="toast-header">
+                <i class="fa-solid fa-spinner"></i>
+                <strong class="mr-auto">Упс...</strong>
+                <button type="button" class="ml-2 mb-1 close" data-bs-dismiss="toast" aria-label="Закрыть">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="toast-body">
+                Функционал ещё не доступен.
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <i class="fa-solid fa-spinner"></i>
+                <strong class="me-auto">Упс..</strong>
+                <button type="button" class="btn-close" data-bs-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Функционал ещё не доступен.
+            </div>
+        </div>
+    </div> -->
+
+
+    </div>
+    <footer>
+        <div class="width-limit">
+            <span>Артеев Артём</span>
+            <div class="left">
+                <a href="https://vk.com/iversy"><img src="https://logodix.com/logo/2174048.png" class="img-fluid"
+                        alt="vk"></a>
+                <a href="https://t.me/iversy"><img
+                        src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftoppng.com%2Fpublic%2Fuploads%2Fpreview%2Ftelegram-icon-telegram-logo-11563072765e0pl0xsrfe.png&f=1&nofb=1&ipt=86bc1779460060a7864cd4bc868a47c90a835fdfaa49a124cae9e6fadb828552&ipo=images"
+                        class="img-fluid" alt="telegram"></a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+<!-- <script>
+    if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+            navigator.serviceWorker
+                .register("service-worker.js")
+                .then((registration) => {
+                    console.log("Service Worker registered: ", registration);
+                })
+                .catch((registrationError) => {
+                    console.error("Service Worker registration failed: ", registrationError);
+                });
+        });
+    }
+</script> -->
+
+</html>
