@@ -7,14 +7,14 @@ const stylesHandler = MiniCssExtractPlugin.loader;
 
 const config = {
     entry: {
-        app: './resources/js/app.js', // Основной файл JS
-        bootstrap: './resources/js/bootstrap.js', // Дополнительный файл JS
-        jquery: './resources/js/jquery.js', // Дополнительный файл JS
-        sass: './resources/sass/app.sass', // Файл SASS
+        app: './resources/js/app.js',
+        bootstrap: './resources/js/bootstrap.js',
+        jquery: './resources/js/jquery.js',
+        sass: './resources/sass/app.sass',
     },
     output: {
-        path: path.resolve(__dirname, 'public/js'), // Путь для JS файлов
-        filename: '[name].js', // Имя выходного файла
+        path: path.resolve(__dirname, 'public/js'),
+        filename: '[name].js',
     },
     devServer: {
         open: true,
@@ -22,7 +22,7 @@ const config = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: '../css/[name].css', // Путь для CSS файлов
+            filename: '../css/[name].css',
         }),
         new webpack.ProvidePlugin({
             $: 'jquery',
