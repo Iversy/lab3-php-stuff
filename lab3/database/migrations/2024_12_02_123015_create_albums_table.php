@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\Schema;
 class CreateAlbumsTable extends Migration
 {
     /**
-     * Запустите миграцию.
+     * Run migration.
      *
      * @return void
      */
@@ -34,7 +34,7 @@ class CreateAlbumsTable extends Migration
     }
 
     /**
-     * Откатите миграцию.
+     * Rollback migration.
      *
      * @return void
      */

@@ -1,0 +1,21 @@
+Schema::hasTable('albums'); 
+
+Schema::hasTable('tracks');
+
+
+$album = new App\Models\Album();
+$album->performer = 'Artist Name';
+$album->album_name = 'Album Title';
+$album->cover_image_url = 'http://example.com/image.jpg';
+$album->description = 'Album description';
+$album->year_of_release = 2023;
+$album->save();
+
+$track = new App\Models\Track();
+$track->album_id = $album->id; 
+$track->name = 'Track Title';
+$track->length = '3:45';
+$track->save();
+
+$album = App\Models\Album::find(1);
+$album->tracks;
